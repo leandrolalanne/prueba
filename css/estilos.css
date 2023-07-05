@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: aqua;
+    width: 100vw;
+    height: 10vh;
+}
+.hero{
+    background-color:blueviolet;
+    width: 100vw;
+    height: 90vh;
+}
+.contenidoContainer{
+    width: 100hv;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.impText{
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    margin: 5px;
+}
